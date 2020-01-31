@@ -1,4 +1,4 @@
-# gatsby-plugin-snipcart
+# gatsby-plugin-snipcartv3
 
 A plugin for using [Snipcart](https://snipcart.com/) with [Gatsby](https://www.gatsbyjs.org/).
 
