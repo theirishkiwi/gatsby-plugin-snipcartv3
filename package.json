@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-plugin-snipcart",
-  "version": "1.1.2",
-  "description": "A Gatsby plugin ecommerce with Snipcart.",
+  "name": "gatsby-plugin-snipcartv3",
+  "version": "1.1.1",
+  "description": "A Gatsby plugin ecommerce with Snipcartv3.",
   "keywords": [
-    "snipcart",
+    "snipcart v3",
     "gatsby-plugin",
     "gatsby"
   ],
@@ -11,9 +11,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/escaladesports/gatsby-plugin-snipcart.git"
+    "url": "git+ssh://git@github.com:danielholdsworth/gatsby-plugin-snipcartv3.git"
   },
-  "author": "Kennedy Rose <krose@escaladesports.com>",
+  "author": "Dan Holdsworth <dshbuilds@gmail.com>",
   "scripts": {
     "lint": "standard",
     "build": "babel src --out-dir ."
