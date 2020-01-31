@@ -1,6 +1,8 @@
 # gatsby-plugin-snipcartv3
 
-A plugin for using [Snipcart](https://snipcart.com/) with [Gatsby](https://www.gatsbyjs.org/).
+## An update to the wildly popular & original `gatsby-plugin-snipcart`.
+
+A plugin for using the latest Version 3 of [Snipcart](https://snipcart.com/) with [Gatsby](https://www.gatsbyjs.org/).
 
 ## Usage
 
