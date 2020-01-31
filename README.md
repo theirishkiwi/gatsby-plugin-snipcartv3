@@ -10,7 +10,7 @@ In your `gatsby-config.js` file, add:
 module.exports = {
 	plugins: [
 		{
-			resolve: 'gatsby-plugin-snipcart',
+			resolve: 'gatsby-plugin-snipcartv3',
 			options: {
 				apiKey: 'YOUR_SNIPCART_KEY'
 			}
