@@ -21,7 +21,8 @@ module.exports = {
 }
 ```
 
-``` <button class="snipcart-add-item"
+``` 
+<button class="snipcart-add-item"
   data-item-id="starry-night"
   data-item-price="79.99"
   data-item-url="/paintings/starry-night"
