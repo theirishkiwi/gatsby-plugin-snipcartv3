@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-snipcartv3",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "A Gatsby plugin ecommerce with Snipcartv3.",
   "keywords": [
     "snipcart",
