@@ -7,8 +7,8 @@ exports.onRenderBody = ({ setPostBodyComponents }, options = {}) => {
 	options = Object.assign({
 		apiKey: process.env.GATSBY_SNIPCART_API_KEY,
 		autopop: false,
-		js: 'https://cdn.snipcart.com/themes/v3.0.6/default/snipcart.js',
-		styles: 'https://cdn.snipcart.com/themes/v3.0.6/default/snipcart.css',
+		js: 'https://cdn.snipcart.com/themes/v3.0.7/default/snipcart.js',
+		styles: 'https://cdn.snipcart.com/themes/v3.0.7/default/snipcart.css',
 		language: `${linkToLangFile}`,
 	}, options)
 
