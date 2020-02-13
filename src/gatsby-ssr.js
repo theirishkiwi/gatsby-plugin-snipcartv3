@@ -8,7 +8,6 @@ exports.onRenderBody = ({ setPostBodyComponents }, options = {}) => {
 		apiKey: process.env.GATSBY_SNIPCART_API_KEY,
 		autopop: false,
 		js: 'https://cdn.snipcart.com/themes/v3.0.6/default/snipcart.js',
-		jquery: 'https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js',
 		styles: 'https://cdn.snipcart.com/themes/v3.0.6/default/snipcart.css',
 		language: `${linkToLangFile}`,
 	}, options)
@@ -24,8 +23,6 @@ exports.onRenderBody = ({ setPostBodyComponents }, options = {}) => {
 	const components = [
 		<script key='snipcartJs' src={options.js} id="snipcart" data-api-key={options.apiKey} data-autopop={options.autopop}></script>
 	]
-	if(options.jquery){
-		components.unshift(<script key='snipcartJquery' src={options.jquery}></script>)
 	}
 	if (options.styles){
 		components.push(<link key='snipcartStyle' href={options.styles} type="text/css" rel="stylesheet" />)
