@@ -1,7 +1,7 @@
 import React from 'react'
 
 let warning = false
-let linkToLangFile = null
+#let linkToLangFile = null
 
 exports.onRenderBody = ({ setPostBodyComponents }, options = {}) => {
 	options = Object.assign({
@@ -9,7 +9,7 @@ exports.onRenderBody = ({ setPostBodyComponents }, options = {}) => {
 		autopop: false,
 		js: 'https://cdn.snipcart.com/themes/v3.0.7/default/snipcart.js',
 		styles: 'https://cdn.snipcart.com/themes/v3.0.7/default/snipcart.css',
-		language: `${linkToLangFile}`,
+		#language: `${linkToLangFile}`,
 	}, options)
 
 	if(!options.apiKey){
