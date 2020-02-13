@@ -21,6 +21,8 @@ module.exports = {
 }
 ```
 
+To add a snipcart product to yor site, just add a HTML element with the data types below
+
 ``` 
 <button class="snipcart-add-item"
   data-item-id="starry-night"
