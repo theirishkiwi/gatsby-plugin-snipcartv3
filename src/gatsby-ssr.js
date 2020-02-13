@@ -1,7 +1,6 @@
 import React from 'react'
 
 let warning = false
-#let linkToLangFile = null
 
 exports.onRenderBody = ({ setPostBodyComponents }, options = {}) => {
 	options = Object.assign({
@@ -9,7 +8,6 @@ exports.onRenderBody = ({ setPostBodyComponents }, options = {}) => {
 		autopop: false,
 		js: 'https://cdn.snipcart.com/themes/v3.0.7/default/snipcart.js',
 		styles: 'https://cdn.snipcart.com/themes/v3.0.7/default/snipcart.css',
-		#language: `${linkToLangFile}`,
 	}, options)
 
 	if(!options.apiKey){
@@ -27,9 +25,5 @@ exports.onRenderBody = ({ setPostBodyComponents }, options = {}) => {
 	if (options.styles){
 		components.push(<link key='snipcartStyle' href={options.styles} type="text/css" rel="stylesheet" />)
 	}
-	if (options.language){
-		components.push(<script key='snipcartLanguage' src={options.language}></script>)
-	}
-
 	return setPostBodyComponents(components)
 }

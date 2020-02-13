@@ -7,7 +7,6 @@ var _react2 = _interopRequireDefault(_react);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var warning = false;
-#var linkToLangFile = null;
 
 exports.onRenderBody = function (_ref) {
 	var setPostBodyComponents = _ref.setPostBodyComponents;
@@ -18,7 +17,6 @@ exports.onRenderBody = function (_ref) {
 		autopop: false,
 		js: 'https://cdn.snipcart.com/themes/v3.0.7/default/snipcart.js',		
 		styles: 'https://cdn.snipcart.com/themes/v3.0.7/default/snipcart.css',
-		#language: '' + linkToLangFile
 	}, options);
 
 	if (!options.apiKey) {
@@ -33,9 +31,5 @@ exports.onRenderBody = function (_ref) {
 	if (options.styles) {
 		components.push(_react2.default.createElement('link', { key: 'snipcartStyle', href: options.styles, type: 'text/css', rel: 'stylesheet' }));
 	}
-	if (options.language) {
-		components.push(_react2.default.createElement('script', { key: 'snipcartLanguage', src: options.language }));
-	}
-
 	return setPostBodyComponents(components);
 };
