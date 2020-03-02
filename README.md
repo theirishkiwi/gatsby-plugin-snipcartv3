@@ -4,8 +4,13 @@ An update to the wildly popular & original `gatsby-plugin-snipcart`.
 
 A plugin for using the latest Version 3 of [Snipcart](https://snipcart.com/) with [Gatsby](https://www.gatsbyjs.org/).
 
+## Install
+
+gatsby-plugin-snipcartv3
+
 ## Note
-The plugin no longer uses JQuery! 
+
+The plugin no longer uses JQuery!
 
 ## Usage
 
@@ -13,20 +18,20 @@ In your `gatsby-config.js` file, add:
 
 ```javascript
 module.exports = {
-	plugins: [
-		{
-			resolve: 'gatsby-plugin-snipcartv3',
-			options: {
-				apiKey: 'YOUR_SNIPCART_KEY'
-			}
-		}
-	]
-}
+  plugins: [
+    {
+      resolve: 'gatsby-plugin-snipcartv3',
+      options: {
+        apiKey: 'YOUR_SNIPCART_KEY'
+      }
+    }
+  ]
+};
 ```
 
 To add a snipcart product to yor site, just add a HTML element with the data types below
 
-``` 
+```
 <button class="snipcart-add-item"
   data-item-id="starry-night"
   data-item-price="79.99"
