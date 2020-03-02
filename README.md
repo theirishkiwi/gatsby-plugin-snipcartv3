@@ -6,7 +6,7 @@ A plugin for using the latest Version 3 of [Snipcart](https://snipcart.com/) wit
 
 ## Install
 
-gatsby-plugin-snipcartv3
+npm i gatsby-plugin-snipcartv3
 
 ## Note
 
