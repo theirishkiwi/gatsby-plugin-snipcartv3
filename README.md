@@ -51,6 +51,6 @@ To add a snipcart product to yor site, just add a HTML element with the data typ
 
 `autopop`: Whether or not the cart will open once a product is added. (Defaults to `false`)
 
-`js`: A Snipcart JavaScript file. (Defaults to `https://cdn.snipcart.com/themes/v3.0.6/default/snipcart.js`)
+`js`: A Snipcart JavaScript file. (Defaults to `https://cdn.snipcart.com/themes/v3.0.11/default/snipcart.js`)
 
-`styles`: A stylesheet file to link to. Set to `false` for none. (Defaults to `https://cdn.snipcart.com/themes/v3.0.6/default/snipcart.css`)
+`styles`: A stylesheet file to link to. Set to `false` for none. (Defaults to `https://cdn.snipcart.com/themes/v3.0.11/default/snipcart.css`)
