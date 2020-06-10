@@ -1,10 +1,10 @@
 # gatsby-plugin-snipcartv3
 
-Now On SnipCart v3.0.11
+Now On SnipCart v3.0.15 🚀
 
 An update to the wildly popular & original `gatsby-plugin-snipcart`.
 
-A plugin for using the latest Version 3 of [Snipcart](https://snipcart.com/) with [Gatsby](https://www.gatsbyjs.org/).
+A plugin for using the latest Version v3.0.15 of [Snipcart](https://snipcart.com/) with [Gatsby](https://www.gatsbyjs.org/).
 
 ## Install
 
