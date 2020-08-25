@@ -8,7 +8,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var warning = false;
 
-var _options = (0, _extends2.default)({}, {
+var _options = (0)({}, {
     version: "3.0.19",
   }, {}, pluginOptions); // find public api key in options plugin or environment variable
 
