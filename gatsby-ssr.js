@@ -10,7 +10,7 @@ var warning = false;
 
 var _options = (0)({}, {
     version: "3.0.19",
-  }, {}, pluginOptions); // find public api key in options plugin or environment variable
+  },
 
 exports.onRenderBody = function (_ref) {
 	var setPostBodyComponents = _ref.setPostBodyComponents;
