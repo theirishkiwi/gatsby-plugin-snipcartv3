@@ -1,13 +1,14 @@
-:wq!import React from 'react'
+import React from 'react'
 
 let warning = false
 
 exports.onRenderBody = ({ setPostBodyComponents }, options = {}) => {
 	options = Object.assign({
 		apiKey: process.env.GATSBY_SNIPCART_API_KEY,
+                version: _options.version,
 		autopop: false,
-		js: 'https://cdn.snipcart.com/themes/v3.0.20/default/snipcart.js',
-		styles: 'https://cdn.snipcart.com/themes/v3.0.20/default/snipcart.css',
+		js: "https://cdn.snipcart.com/themes/v" + _options.version + "/default/snipcart.js",
+		styles: "https://cdn.snipcart.com/themes/v" + _options.version + "/default/snipcart.css",
 	}, options)
 
 	if(!options.apiKey){
