@@ -2,12 +2,6 @@
 
 var _react = require('react');
 
-var SnipcartStyles = require("./components/SnipcartStyles");
-
-var Snipcart = require("./components/Snipcart");
-
-var SnipcartProvider = require("./components/SnipcartProvider").default;
-
 var _react2 = _interopRequireDefault(_react);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -42,18 +36,4 @@ exports.onRenderBody = function (_ref) {
 		components.push(_react2.default.createElement('link', { key: 'snipcartStyle', href: options.styles, type: 'text/css', rel: 'stylesheet' }));
 	}
 	return setPostBodyComponents(components);
-};
-
-/**
- * wrapp app with provider for dispatch cart and customer infos
- */
-exports.wrapRootElement = ({ element }, pluginOptions = {}) => {
-  const _options = {
-    ...{
-      version: "3.0.19",
-    },
-    ...pluginOptions,
-  }
-  
-  return /*#__PURE__*/React.createElement(SnipcartProvider, _options, element); 
 };
