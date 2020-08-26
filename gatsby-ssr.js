@@ -10,7 +10,7 @@ var warning = false;
 
 exports.onRenderBody = function (_ref) {
   const _options = {
-      version: "3.0.19",
+      version: process.env.version,
   };
 	var setPostBodyComponents = _ref.setPostBodyComponents;
 	var options = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
