@@ -8,11 +8,13 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var warning = false;
 
-var _options = (0)({}, {
-    version: "3.0.19",
-  },
-
 exports.onRenderBody = function (_ref) {
+  const _options = {
+    ...{
+      version: "3.0.20",
+    },
+    ...pluginOptions,
+  };
 	var setPostBodyComponents = _ref.setPostBodyComponents;
 	var options = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
 
