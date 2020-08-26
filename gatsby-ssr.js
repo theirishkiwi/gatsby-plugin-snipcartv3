@@ -2,6 +2,12 @@
 
 var _react = require('react');
 
+var SnipcartStyles = require("./components/SnipcartStyles");
+
+var Snipcart = require("./components/Snipcart");
+
+var SnipcartProvider = require("./components/SnipcartProvider").default;
+
 var _react2 = _interopRequireDefault(_react);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -48,4 +54,6 @@ exports.wrapRootElement = ({ element }, pluginOptions = {}) => {
     },
     ...pluginOptions,
   }
+  
+  return /*#__PURE__*/React.createElement(SnipcartProvider, _options, element); 
 };
