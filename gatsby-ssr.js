@@ -47,4 +47,5 @@ exports.wrapRootElement = ({ element }, pluginOptions = {}) => {
       version: "3.0.19",
     },
     ...pluginOptions,
-  };
+  }
+};
