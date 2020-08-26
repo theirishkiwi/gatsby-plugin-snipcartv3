@@ -48,5 +48,3 @@ exports.wrapRootElement = ({ element }, pluginOptions = {}) => {
     },
     ...pluginOptions,
   };
-  return <SnipcartProvider {..._options}>{element}</SnipcartProvider>;
-};
