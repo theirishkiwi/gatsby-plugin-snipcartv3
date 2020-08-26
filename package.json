@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-plugin-snipcartv3",
+  "name": "gatsby-plugin-snipcartv3020",
   "version": "2.3.0",
   "description": "A Gatsby plugin ecommerce with Snipcartv3.",
   "keywords": [
@@ -12,7 +12,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:danielholdsworth/gatsby-plugin-snipcartv3.git"
+    "url": "git+ssh://git@github.com:theirishkiwi/gatsby-plugin-snipcartv3.git"
   },
   "author": "Dan Holdsworth <dshbuilds@gmail.com>",
   "scripts": {
