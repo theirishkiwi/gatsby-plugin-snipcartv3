@@ -37,3 +37,16 @@ exports.onRenderBody = function (_ref) {
 	}
 	return setPostBodyComponents(components);
 };
+
+/**
+ * wrapp app with provider for dispatch cart and customer infos
+ */
+exports.wrapRootElement = ({ element }, pluginOptions = {}) => {
+  const _options = {
+    ...{
+      version: "3.0.19",
+    },
+    ...pluginOptions,
+  };
+  return <SnipcartProvider {..._options}>{element}</SnipcartProvider>;
+};
