@@ -1,10 +1,10 @@
 # gatsby-plugin-snipcartv3
 
-Now On SnipCart v3.0.15 🚀
+Now On SnipCart v3.0.22 🚀
 
 An update to the wildly popular & original `gatsby-plugin-snipcart`.
 
-A plugin for using the latest Version v3.0.15 of [Snipcart](https://snipcart.com/) with [Gatsby](https://www.gatsbyjs.org/).
+A plugin for using the latest Version v3.0.22 of [Snipcart](https://snipcart.com/) with [Gatsby](https://www.gatsbyjs.org/).
 
 ## Install
 
@@ -51,6 +51,6 @@ To add a snipcart product to yor site, just add a HTML element with the data typ
 
 `autopop`: Whether or not the cart will open once a product is added. (Defaults to `false`)
 
-`js`: A Snipcart JavaScript file. (Defaults to `https://cdn.snipcart.com/themes/v3.0.15/default/snipcart.js`)
+`js`: A Snipcart JavaScript file. (Defaults to `https://cdn.snipcart.com/themes/v3.0.22/default/snipcart.js`)
 
-`styles`: A stylesheet file to link to. Set to `false` for none. (Defaults to `https://cdn.snipcart.com/themes/v3.0.15/default/snipcart.css`)
+`styles`: A stylesheet file to link to. Set to `false` for none. (Defaults to `https://cdn.snipcart.com/themes/v3.0.22/default/snipcart.css`)
